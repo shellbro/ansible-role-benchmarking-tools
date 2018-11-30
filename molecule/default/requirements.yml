@@ -1,0 +1,6 @@
+---
+
+- src: https://github.com/shellbro/ansible-role-epel.git
+  name: shellbro.epel
+- src: https://github.com/shellbro/ansible-role-pip.git
+  name: shellbro.pip

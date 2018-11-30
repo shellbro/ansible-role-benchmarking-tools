@@ -1,2 +1,23 @@
 ---
-# tasks file for ansible-role-hardware-tools
+
+- name: install tools
+  yum:
+    name:
+      - hdparm
+      - htop
+      - iftop
+      - ipmitool
+      - iotop
+      - lm_sensors
+      - nmap
+      - nmap-ncat
+      - python2-speedtest-cli
+      - smartmontools
+      - stress
+      - upower
+  become: true
+
+- name: install s-tui
+  pip:
+    name: s-tui
+  become: true
