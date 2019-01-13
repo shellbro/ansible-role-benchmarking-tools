@@ -6,8 +6,8 @@
       - hdparm
       - htop
       - iftop
-      - ipmitool
       - iotop
+      - ipmitool
       - lm_sensors
       - nmap
       - nmap-ncat
