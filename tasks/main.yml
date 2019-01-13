@@ -21,3 +21,11 @@
   pip:
     name: s-tui
   become: true
+
+- name: disable ipmievd
+  tags: notest
+  service:
+    enabled: false
+    name: ipmievd
+    state: stopped
+  become: true
