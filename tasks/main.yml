@@ -21,7 +21,6 @@
   pip:
     extra_args: --user
     name: s-tui
-    state: latest
   become: true
 
 - name: disable ipmievd
