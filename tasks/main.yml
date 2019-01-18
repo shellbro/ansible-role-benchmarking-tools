@@ -20,6 +20,7 @@
 - name: install s-tui
   pip:
     name: s-tui
+    state: latest
   become: true
 
 - name: disable ipmievd
