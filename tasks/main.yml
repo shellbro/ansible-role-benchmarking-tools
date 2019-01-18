@@ -19,6 +19,7 @@
 
 - name: install s-tui
   pip:
+    extra_args: --user
     name: s-tui
     state: latest
   become: true
