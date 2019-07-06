@@ -1,8 +1,7 @@
 ---
-
 galaxy_info:
   author: Jakub Gorczyca
-  description: Ansible role for installing hardware diagnostic tools on CentOS 7.
+  description: Ansible role for installing hardware diagnostic tools on CentOS 7
 
   issue_tracker_url: https://github.com/shellbro/ansible-role-hardware-tools/issues
 
@@ -11,10 +10,9 @@ galaxy_info:
   min_ansible_version: 2.4
 
   platforms:
-    - name: CentOS
+    - name: EL
       versions:
         - 7
 
 dependencies:
   - shellbro.epel
-  - shellbro.pip

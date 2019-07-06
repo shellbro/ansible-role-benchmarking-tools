@@ -3,12 +3,12 @@ shellbro.hardware-tools
 
 [![Build Status](https://travis-ci.org/shellbro/ansible-role-hardware-tools.svg?branch=master)](https://travis-ci.org/shellbro/ansible-role-hardware-tools)
 
-Ansible role for installing hardware diagnostic tools on CentOS 7.
+Ansible role for installing hardware diagnostic tools on CentOS 7
 
 Requirements
 ------------
 
-None
+Ansible version >= 2.4
 
 Role Variables
 --------------
@@ -19,7 +19,6 @@ Dependencies
 ------------
 
 * shellbro.epel
-* shellbro.pip
 
 Example Playbook
 ----------------

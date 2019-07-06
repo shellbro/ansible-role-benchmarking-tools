@@ -1,6 +1,5 @@
 ---
-
-- name: install tools
+- name: Install tools
   yum:
     name:
       - hdparm
@@ -17,13 +16,7 @@
       - upower
   become: true
 
-- name: install s-tui
-  pip:
-    extra_args: --user
-    name: s-tui
-  become: true
-
-- name: disable ipmievd
+- name: Disable ipmievd
   tags: notest
   service:
     enabled: false
