@@ -1,4 +1,4 @@
-shellbro.hardware-tools
+shellbro.hardware_tools
 =======================
 
 [![Build Status](https://travis-ci.org/shellbro/ansible-role-hardware-tools.svg?branch=master)](https://travis-ci.org/shellbro/ansible-role-hardware-tools)
@@ -25,7 +25,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-        - shellbro.hardware-tools
+        - shellbro.hardware_tools
 
 License
 -------
